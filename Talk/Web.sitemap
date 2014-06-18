@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Intro"  description="Introduction to Web UI Testing Frameworks">
+      <siteMapNode url="NUnitAsp\default.aspx" title="NUnitAsp Intro"  description="">
+        <siteMapNode url="NUnitAsp\downloads.aspx" title="Where to get it" />
+        <siteMapNode url="NUnitAsp\example.aspx" title="Simple Example" />
+        <siteMapNode url="NUnitAsp\SmokeTest.aspx" title="Smoke Test Example" />
+      </siteMapNode>
+      <siteMapNode url="Selenium\default.aspx" title="Selenium Intro"  description="">
+        <siteMapNode url="Selenium\downloads.aspx" title="Where to get it" />
+        <siteMapNode url="Selenium\example.aspx" title="Simple Example" />
+        <siteMapNode url="Selenium\SmokeTest.aspx" title="Smoke Test Example" />
+      </siteMapNode>
+      <siteMapNode url="Watin\default.aspx" title="Watin Intro"  description="">
+        <siteMapNode url="Watin\downloads.aspx" title="Where to get it" />
+        <siteMapNode url="Watin\example.aspx" title="Simple Example" />
+        <siteMapNode url="Watin\SmokeTest.aspx" title="Smoke Test Example" />
+      </siteMapNode>
+      <siteMapNode url="common\comparison.aspx" title="Comparison">
+        <siteMapNode url="common\NUnitAspWhenToUse.aspx" title="When to use NUnitAsp" />
+        <siteMapNode url="common\SeleniumWhenToUse.aspx" title="When to use Selenium" />
+        <siteMapNode url="common\WatinWhenToUse.aspx" title="When to use Watin" />
+      </siteMapNode>
+      <siteMapNode url="common\SimpleApp.aspx" title="Using the 3 frameworks with a simple Localizied Web App" />
+    </siteMapNode>
+</siteMap>

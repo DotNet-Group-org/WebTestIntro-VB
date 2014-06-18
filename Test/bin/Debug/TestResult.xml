@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\data\programs\examples\WebTestingIntro\SourceCode\WebTestIntro\Test\bin\Debug\WebTestIntro.nunit" total="4" failures="0" not-run="0" date="2007-08-30" time="20:29:38">
+  <environment nunit-version="2.4.1.0" clr-version="2.0.50727.832" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="C:\Program Files\NUnit 2.4.1\bin" machine-name="KAGETABLET" user="jfh" user-domain="KAGETABLET" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\data\programs\examples\WebTestingIntro\SourceCode\WebTestIntro\Test\bin\Debug\WebTestIntro.nunit" success="True" time="10.495" asserts="0">
+    <results>
+      <test-suite name="C:\data\programs\examples\WebTestingIntro\SourceCode\WebTestIntro\Test\bin\Debug\Test.dll" success="True" time="10.485" asserts="0">
+        <results>
+          <test-suite name="Test" success="True" time="10.485" asserts="0">
+            <results>
+              <test-suite name="WatiN" success="True" time="10.465" asserts="0">
+                <results>
+                  <test-suite name="BirthdayClubMemberInfoFixture" success="True" time="10.445" asserts="0">
+                    <results>
+                      <test-case name="Test.WatiN.BirthdayClubMemberInfoFixture.AddMember" executed="True" success="True" time="4.266" asserts="5" />
+                      <test-case name="Test.WatiN.BirthdayClubMemberInfoFixture.ChooseDifferentLanguage" executed="True" success="True" time="2.193" asserts="2" />
+                      <test-case name="Test.WatiN.BirthdayClubMemberInfoFixture.PickDate" executed="True" success="True" time="2.183" asserts="3" />
+                      <test-case name="Test.WatiN.BirthdayClubMemberInfoFixture.SmokeTest" executed="True" success="True" time="1.793" asserts="4" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

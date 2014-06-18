@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<BirthdayClubMembers>
+  <xs:schema id="BirthdayClubMembers" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="BirthdayClubMembers" msdata:IsDataSet="true" msdata:MainDataTable="BirthdayClubMember" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BirthdayClubMember">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MemberID" type="xs:int" minOccurs="0" />
+                <xs:element name="MemberName" type="xs:string" minOccurs="0" />
+                <xs:element name="Birthdate" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BirthdayClubMember>
+    <MemberID>1</MemberID>
+    <MemberName>Labor Day Parade</MemberName>
+    <Birthdate>2007-09-03T00:00:00-07:00</Birthdate>
+  </BirthdayClubMember>
+  <BirthdayClubMember>
+    <MemberID>2</MemberID>
+    <MemberName>Back To School Orientation</MemberName>
+    <Birthdate>2007-08-27T00:00:00-07:00</Birthdate>
+  </BirthdayClubMember>
+</BirthdayClubMembers>

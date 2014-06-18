@@ -1,0 +1,14 @@
+﻿body 
+{
+	margin: 10px; 
+	font-family: arial, helvetica, sans-serif; 
+	color: black;
+	background-color: white;
+	font-size: 4pt;
+}
+
+LABEL
+{
+	font-size: 6pt;
+	font-family: Arial;
+}

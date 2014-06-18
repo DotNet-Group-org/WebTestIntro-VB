@@ -1,0 +1,47 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Introduction to Web UI Testing Frameworks</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="5">
+            <tr>
+                <td>
+                    <img src="images/dnglLogon.jpg" id="IMG1" runat="server" />
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" StaticSubMenuIndent="10px">
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td align="right" valign="top">
+                    John Hilts<br />
+                    August 30, 2007
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <asp:SiteMapPath runat="server" />    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" bordercolor="navy" style="border-top-style: solid; border-right-style: solid; border-left-style: solid; border-bottom-style: solid">
+                    <asp:contentplaceholder id="cph" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

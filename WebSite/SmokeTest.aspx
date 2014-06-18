@@ -1,0 +1,25 @@
+<%@ Page Language="VB" AutoEventWireup="false" Inherits="NUnitAspSmokeTest" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>NUnitAsp Example</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:panel ID="pnlEntry" runat="server">
+            Please Enter your Name:
+            <asp:TextBox ID="txtName" runat="server" TextMode="singleLine" />
+            <br />
+            <asp:Button ID="btnSubmit" runat="server" Text="Next" /><br />
+        </asp:panel>
+
+        <asp:Panel ID="pnlResults" runat="server" Visible="false">
+            <asp:Label ID="lblName" runat="server" />
+        </asp:Panel>
+
+    </form>
+</body>
+</html>
